@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Experience.css";
 
-import clogo from "../../images/clogo.png";
 import codeWizard from '../../images/code-wizard.png';
 
 const Experience = () => {

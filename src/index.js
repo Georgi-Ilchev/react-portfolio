@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import 'balloon-css';
 
 import Scroll from './components/ScrollComponent/Scroll';
 import Home from './components/HomeComponent/Home';
@@ -12,11 +13,6 @@ import Experience from './components/SotfUniExpComponents/Experience';
 import Resource from './components/ResourceComponent/Resource';
 import Contact from './components/ContactComponent/Contact';
 import Footer from './components/FooterComponent/Footer';
-
-import Type from './components/TypeComponent/Type';
-import NotFound from './components/NotFoundComponent/NotFound';
-import ShowAndHide from './/components/LanguagesComponents/showAndHide';
-
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,19 +25,9 @@ ReactDOM.render(
     <Resource></Resource>
     <Contact></Contact>
     <Footer></Footer>
-    {/* <NotFound></NotFound> */}
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <Type />
-//   </React.StrictMode>,
-//   rootElement
-// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

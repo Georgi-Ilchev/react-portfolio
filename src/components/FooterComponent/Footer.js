@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <div className="divFooter">
-        <span className="footer">| Page created By <span className="footerName">Georgi Ilchev</span> | <span class="far fa-copyright"></span> 2021 All rights
+            <span className="footer">| Page created By <span className="footerName">Georgi Ilchev</span> | <span class="far fa-copyright"></span> 2021 All rights
             reserved. |
         </span>
         </div>

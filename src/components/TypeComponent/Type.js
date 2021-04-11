@@ -13,15 +13,3 @@ export default class Hello extends Component {
     return <div id="myElement"></div>;
   }
 }
-
-// import React from 'react';
-// import './Type.css';
-// import Typical from 'react-typical';
-
-// function Type () {
-//   return (
-//    <p>
-//      I`m studying in:
-//    </p>
-//   )
-// }

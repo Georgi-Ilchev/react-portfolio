@@ -74,7 +74,6 @@ const Contact = () => {
                     <span className="email" data-balloon-length="medium" aria-label="goshicha1@gmail.com" data-balloon-pos="down">
                         <FontAwesomeIcon icon={faEnvelope} size="2x" />
                         <span className="contactLink"> Email</span>
-                        {/* <button onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}}>Email</button> */}
                     </span>
                 </CopyToClipboard>
 

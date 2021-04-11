@@ -97,19 +97,3 @@ const ShowAndHide = (props) => {
 }
 
 export default ShowAndHide;
-
-
-
-// 
-
-// 
-
-// <div id={props.id.newId}>
-// <h1>JS</h1>
-// <p>this is some random text about js</p>
-// </div>
-
-// <div id={props.id.newId}>
-// <h1>C++</h1>
-// <p>this is some random text about c++</p>
-// </div>

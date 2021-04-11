@@ -14,7 +14,6 @@
     -webkit-transition: top 0.5s ease-out 0.5s, -webkit-transform 0.5s ease-out;
     -moz-transition: top 0.5s ease-out 0.5s, -moz-transform 0.5s ease-out;
     transition: top 0.5s ease-out 0.5s, transform 0.5s ease-out;
-
     transition: all 0.2s;
 }
 
@@ -22,7 +21,6 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-
 }
 
 .navbar-links li{
@@ -58,7 +56,6 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    /* todo */
 }
 
 
@@ -79,7 +76,6 @@
     .navbar-links a{
         font-size: 75%;
     }
-
 }
 
 @media only screen and (max-width: 720px){

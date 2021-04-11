@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import IconButton from '@material-ui/core/IconButton';
-// import "./Scroll.css";
 
-import { faCoffee, faEnvelope, faHome, faMobile } from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const useStyles = makeStyles((theme) => ({
@@ -23,14 +21,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }))
 
-// backgroundColor: '#DCDCDC',
-// color: 'black',
-
-// color: '#397BA6',
-// backgroundColor: '#DCDCDC'
-
 const Scroll = ({ showBelow }) => {
-    //check
     const classes = useStyles();
 
     const [show, setShow] = useState(showBelow ? false : true)

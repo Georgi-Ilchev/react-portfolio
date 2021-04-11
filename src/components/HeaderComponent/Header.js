@@ -16,7 +16,6 @@ const Header = () => {
         contacts: 3400,
     }
 
-    // window[`scrollTo`]({ top: 2420, behavior: `smooth` })
     const navigate = (e) => {
         e.preventDefault();
 

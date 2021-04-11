@@ -1,8 +1,6 @@
 import React, { useEffect, useState, Component } from "react";
 import "./Home.css";
 import Typical from 'react-typical';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Home = () => {
 

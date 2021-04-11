@@ -1,0 +1,169 @@
+.resource{
+    width: 100%;
+    height: 41rem;
+
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F); 
+    
+    /* background: #093028;
+    background: -webkit-linear-gradient(to right, #237A57, #093028);
+    background: linear-gradient(to right, #237A57, #093028); */
+
+}
+
+.resourceTitle{
+    filter: drop-shadow(0px 6px 5px black);
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    right: 0;
+    margin-left: 42%; 
+    color: white;
+    margin-top: -13.8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 1.5rem;
+}
+
+#glitchImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+     background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/glitch.png');
+}
+
+#homeImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/homeBtn.png');
+}
+
+#clipboardImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/copytoclipboard.png');
+}
+
+#sliderImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/slider.png');
+}
+
+#backgroundImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/backgroundImg.png');
+}
+
+#rotateImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/rotateImg.png');
+}
+
+#balloonImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/balloonImg.png');
+}
+
+#transformImg{
+    width: 100%;
+    height: 250px;
+    background: rgb(32,32,32);
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url('../../images/transformImg.png');
+}
+
+#cardsText{
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(0px 6px 5px black);
+}
+
+#rotateSettings{
+    margin: 5rem 10rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .resourceTitle{
+        flex-direction: column;
+        margin-top: -15rem;
+    }
+}

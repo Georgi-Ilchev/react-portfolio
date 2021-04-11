@@ -1,0 +1,15 @@
+.toTop{
+    z-index: 2;
+    position: fixed;
+    bottom: 2vh;
+    background-color: transparent;
+    color: black;
+    
+}
+
+.toTop:hover{
+    transition: 0.3s;
+    color: green;
+    background-color: greenyellow;
+}
+

@@ -1,0 +1,172 @@
+.language{
+    width: 100%;
+    height: 41rem;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F); 
+}
+
+.titleLanguage{
+    filter: drop-shadow(0px 6px 5px black);
+    position: absolute;
+    left: 0%;
+    right: 0;
+    margin-left: 41.8%; 
+    color: white;
+    margin-top: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rotateCsharp {
+    animation: rotation 8s infinite linear;
+}
+
+.rotateJava {
+    animation: rotation 8s infinite linear;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.rotatePython {
+    animation: rotation 8s infinite linear;
+    display: inline-block;
+    margin-right: 5em;
+    margin-left: -30rem;
+}
+
+.rotateJs{
+    animation: rotation 8s infinite linear;
+    margin-left: -30em;
+    margin-top: 5rem;
+    margin-right: 4em;
+}
+
+.rotateC{
+    animation: rotation 8s infinite linear;
+    margin-right: 3.3em;
+}
+
+.rotatePhp{
+    animation: rotation 8s infinite linear;
+}
+
+.logos{
+    margin-top: 2rem;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+.HandleChange{
+    left: 10rem;
+    width: 7%;
+    height: 2rem;
+}
+
+#swap {
+    float:right;
+    height:28em;
+    width:30%;
+    overflow:hidden;
+    background-color: rgb(32,32,32);
+    border-radius: 2rem;
+    z-index: 1;
+    position: relative;
+    right: 2rem;
+    top: 18%;
+}
+
+#swap:hover{
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+    border-radius: 2rem;
+}
+    
+#python, #csharp, #javascr ,#java, #clogo, #kotlin  {
+    height:30em;
+    color:whitesmoke;
+    font-size: larger;
+    text-align: center;
+}
+
+#swap h1{
+    margin:auto;
+    vertical-align:middle;
+}
+
+
+.elseLanguages{
+    color: white;
+    position: absolute;
+    top: 11.3rem;
+    text-align: center;
+}
+
+.logos{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px){
+.language{  
+    flex-direction: column;
+
+}
+
+    #python, #csharp, #javascr ,#java, #clogo, #kotlin{
+       font-size: 96%;
+    }
+
+    .elseLanguages{
+        font-size: 80%;
+    }
+
+    .logos{
+        padding-top: 0rem;
+        padding-left: 10rem;
+    }
+
+    .rotatePython{
+        flex-direction: column;
+        width: 23%;
+        height: 23%;
+    }
+
+    .rotateCsharp{
+        flex-direction: column;
+        width: 23%;
+        height: 23%;
+    }
+
+    .rotateJava{
+        flex-direction: column;
+        width: 23%;
+        height: 23%;
+    }
+
+    .rotateJs{
+        flex-direction: column;
+        width: 23%;
+        height: 23%;
+        margin-right: 4.5rem;
+    }
+
+    .rotateC{
+        flex-direction: column;
+        width: 27%;
+        height: 27%;
+        margin-right: 4rem;
+    }
+
+    .rotatePhp{
+        flex-direction: column;
+        width: 23%;
+        height: 23%;
+    }
+}

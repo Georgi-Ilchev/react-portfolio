@@ -12,6 +12,9 @@ const About = () => {
                     <span aria-hidden="true">Portfolio</span>Portfolio
                     <span aria-hidden="true">Portfolio</span>
                 </p>
+
+
+                
                 <div>
                     <p className="info">
                         <span>I started learning programming in the beginning of 2020 and I realized that I really like it.<br></br></span>

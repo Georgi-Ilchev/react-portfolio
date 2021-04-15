@@ -26,13 +26,15 @@
 .navbar-links li{
     transition: all 0.4s ease;
     text-align: center;
-    padding: 15px;
     list-style-type: none;
     text-decoration: none;
     color: white;
-    margin: 0.7rem;
-    height: 1.5rem;
-    width: 8rem;
+    /* padding: 15px;
+    margin: 0.7rem; */
+    margin: 1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     background-color: transparent;
     font-weight: bold;
@@ -45,6 +47,7 @@
     background-color: rgb(88, 142, 96);
     transition: all 0.5s ease;
     transform: scale(1.15);
+    
 }
 
 .navbar-links a{
@@ -54,8 +57,14 @@
     justify-content: center;
     align-items: center;
 
+    padding: 11px   30px   11px  30px;
+
+     
+    height: 1.67rem;
+    width: 8rem;
+/* 
     padding-top: 14px;
-    padding-bottom: 14px;
+    padding-bottom: 14px; */
 }
 
 
